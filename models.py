@@ -217,6 +217,7 @@ class GraphSage(nn.Module):
 
 		self.raw_features = raw_features
 		self.adj_lists = adj_lists
+		self.resnet = resnet
 
 		for index in range(1, num_layers+1):
 			layer_size = out_size if index != 1 else input_size
@@ -250,6 +251,7 @@ class GraphSage(nn.Module):
 										aggregate_feats=aggregate_feats)
 			pre_hidden_embs = cur_hidden_embs
 
+			pre_hidden_embs = resnet(pre_hidden_embs)
 		return pre_hidden_embs
 
 	def _nodes_map(self, nodes, hidden_embs, neighs):
@@ -312,6 +314,20 @@ class GraphSage(nn.Module):
 		# self.dc.logger.info('6')
 		
 		return aggregate_feats
+
+from src.resnet import resnet_block
+resnet = nn.Sequential()
+resnet.add_module("resnet_block1", resnet_block(128, 128))
+fc = nn.Sequential(
+    nn.Conv2d(128, 128, kernel_size=1, padding=1),
+    nn.BatchNorm2d(128),
+    nn.ReLU(),
+    nn.AvgPool2d(4, 4),
+    nn.Flatten(),
+    nn.Dropout(0.5),
+    nn.Linear(128, 128),
+)
+resnet.add_module("fc", fc)
 
 
 
