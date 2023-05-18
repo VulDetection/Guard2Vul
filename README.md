@@ -15,4 +15,5 @@ This module includes the definition of evaluation indicators, the definition of 
 This is the main function, which includes the parameter definition of the model and the saved results after training.
 # Comparison results (with the experimental results of different dataset split)
 Comparison result with the dl-based baselines (recorded in the paper):
+
 <img width="334" alt="rq1" src="https://github.com/shenhtrick/Guard2Vul/assets/43394667/d916bede-7bd5-496d-9571-38238fbdc86c">
