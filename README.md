@@ -1,4 +1,5 @@
-# Code For "Guard2Vul: Effective Vulnerability Detection via Augmented Data and Sensitive Semantic"![Uploading 截屏2023-05-18 10.10.44.png…]()
+# Code For "Guard2Vul: Effective Vulnerability Detection via Augmented Data and Sensitive Semantic"
+![Uploading 截屏2023-05-18 10.10.44.png…]()
 
 
 # Dataset
