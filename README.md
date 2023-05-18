@@ -10,3 +10,4 @@ This module contains the definition of the residual connection network, where yo
 This module includes the definition of evaluation indicators, the definition of evaluation functions, the functions of the adversarial training methods we have constructed, and the details of how to train the model.
 # main
 This is the main function, which includes the parameter definition of the model and the saved results after training.
+# Comparison results (with the experimental results of different dataset split)
