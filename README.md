@@ -7,4 +7,5 @@ This module contains the definitions of classifiers and models, where you can ch
 # resnet
 This module contains the definition of the residual connection network, where you can make changes to the details of the residual connection network.
 # utils
+This module includes the definition of evaluation indicators, the definition of evaluation functions, the functions of the adversarial training methods we have constructed, and the details of how to train the model.
 # main
