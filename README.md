@@ -1,6 +1,7 @@
 # Code For "Guard2Vul: Effective Vulnerability Detection via Augmented Data and Sensitive Semantic"
 
-![Uploading image.png…]()
+![image](https://github.com/VulDetection/Guard2Vul/assets/149237339/061dbada-1e5f-487b-b780-ae204272df53)
+
 
 
 
