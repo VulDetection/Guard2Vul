@@ -16,4 +16,5 @@ This is the main function, which includes the parameter definition of the model 
 # Comparison results (with the experimental results of different dataset split)
 Comparison result with the dl-based baselines (recorded in the paper):
 
-<img width="334" alt="rq1" src="https://github.com/shenhtrick/Guard2Vul/assets/43394667/d916bede-7bd5-496d-9571-38238fbdc86c">
+![屏幕截图 2023-10-28 175903](https://github.com/VulDetection/Guard2Vul/assets/149237339/abf848a2-026c-4724-9e25-6f632bd70931)
+
