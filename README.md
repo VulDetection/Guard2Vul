@@ -1,6 +1,7 @@
 # Code For "Guard2Vul: Effective Vulnerability Detection via Augmented Data and Sensitive Semantic"
 
-<img width="647" alt="fw" src="https://github.com/shenhtrick/Guard2Vul/assets/43394667/79d7fec4-ec1d-4828-a3f6-d696f7425c08">
+![Uploading image.png…]()
+
 
 
 # Dataset
